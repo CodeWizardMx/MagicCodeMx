@@ -1,7 +1,6 @@
 package org.codewizard;
 
-import org.codewizard.examples.ListExample;
-import org.codewizard.examples.OptionalExample;
+import org.codewizard.examples.MethodOverloading;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -12,5 +11,8 @@ public class Main {
 
 
         SpringApplication.run(Main.class, args);
+
+        MethodOverloading.examples();
+
     }
 }

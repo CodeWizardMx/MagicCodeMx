@@ -36,4 +36,5 @@ public class LibroController {
     public void deleteLibro(@PathVariable Long id) {
         libroRepository.deleteById(id);
     }
+
 }
